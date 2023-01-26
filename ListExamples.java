@@ -3,6 +3,20 @@ import java.util.List;
 
 interface StringChecker { boolean checkString(String s); }
 
+class StringCheckerImplementation implements StringChecker{
+    String contains;
+
+    public StringCheckerImplementation(String contains){
+        this.contains=contains;
+    }
+
+    @Override
+    public boolean checkString(String s) {
+        return s.contains(this.contains);
+    }
+
+}
+
 class ListExamples {
 
   // Returns a new list that has all the elements of the input list for which
@@ -40,10 +54,9 @@ class ListExamples {
     }
     while(index2 < list2.size()) {
       result.add(list2.get(index2));
-      index1 += 1;
+      index2 += 1;
     }
     return result;
   }
-
 
 }
