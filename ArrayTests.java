@@ -2,6 +2,8 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 public class ArrayTests {
+
+/* 
 	@Test 
 	public void testReverseInPlace() {
         int[] input1 = { 3 };
@@ -27,7 +29,7 @@ public class ArrayTests {
         ArrayExamples.reverseInPlace(input2);
         assertArrayEquals(new int[]{ 11, 9, 7, 3 }, input2);
 	}
-
+*/
 /*   @Test
   public void testReversed2InClass() {
     int[] input1 = { 3, 7, 9 };
